@@ -1,0 +1,77 @@
+.wrapper{
+    margin: auto;
+}
+
+.right{
+    justify-content: center;
+    background-color: rgb(244, 231, 207);
+    border-radius: 50px;
+    margin: auto;
+    width: 50%;
+   margin-top: 2%;
+    padding-bottom: 2.5%;
+    padding-top:1% ;
+}
+
+.one{
+    font-family: emoji;
+    color:rgb(120, 55, 55); 
+}
+.h2s{
+    font-family: emoji;
+}
+ 
+.login{
+    background-color: bisque;
+    border-radius: 10%;
+    margin: 25%;
+    
+}
+.button{
+    width: 100px;
+    font-size: medium;
+    color: aliceblue;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color: blue;
+    cursor: pointer;
+    font-family: sans-serif;
+    
+}
+.button:hover{
+    background-color: gray;
+}
+.buttonf:hover{
+    color: aliceblue;
+   
+}
+.buttonf{
+    border: none;
+    background-color: rgb(244, 231, 207);
+    cursor: pointer;
+    font-family: emoji;
+}
+
+@media screen and (max-width:768px) {
+    .right{
+        background-color: aquamarine;
+        border-radius: 50px; 
+        width: auto;
+        
+    }
+    .wrapper{
+        grid-template-columns: repeat(1,100%);
+    }
+    .buttonf{
+        background-color: antiquewhite;
+    }
+    .right{
+        background-color: antiquewhite;
+    }
+    .one{
+        margin: 20%;
+    }
+    .logo{
+        padding-top: 0%;
+    }
+}
