@@ -58,7 +58,7 @@
 
 @media screen and (max-width:768px) {
     .right{
-        background-color: aquamarine;
+        background-color: rgb(171, 202, 255);
         border-radius: 50px; 
         width: auto;
         
@@ -67,9 +67,6 @@
         grid-template-columns: repeat(1,100%);
     }
     .buttonf{
-        background-color: antiquewhite;
-    }
-    .right{
         background-color: antiquewhite;
     }
     .one{
