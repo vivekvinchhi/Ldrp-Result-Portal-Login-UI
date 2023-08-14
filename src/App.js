@@ -6,7 +6,7 @@ import Forgotpass from './Components/Registration/Forgetpassword/forgetpassword'
 
 function App() {
   return (
-    <div className="App">
+    <div className='app'>
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />
